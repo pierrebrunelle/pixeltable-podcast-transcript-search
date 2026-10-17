@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt this example app, please cite it using these metadata."
+type: software
+title: "Podcast Transcript Search media pipeline built with Pixeltable"
+abstract: "Searchable podcast and meeting transcript archive: silence-aware audio chunking, Whisper API transcription, semantic search with mm:ss offsets, and cover-art tiles."
+authors:
+  - given-names: "Pierre"
+    family-names: "Brunelle"
+repository-code: "https://github.com/pierrebrunelle/pixeltable-podcast-transcript-search"
+url: "https://pierrebrunelle.github.io/awesome-pixeltable-apps/"
+license: Apache-2.0
+version: "0.1.0"
+date-released: 2026-10-17
+keywords:
+  - "pixeltable"
+  - "pixeltable-example"
+  - "python"
+  - "audio-processing"
+  - "multimodal"
+  - "whisper"
+  - "speech-to-text"
+  - "semantic-search"
+  - "podcast"
+  - "database-indexing"

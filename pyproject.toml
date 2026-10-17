@@ -1,0 +1,19 @@
+[project]
+name = "pixeltable-podcast-transcript-search"
+version = "0.1.0"
+description = "Searchable podcast and meeting transcript archive: silence-aware audio chunking, Whisper API transcription, semantic search with mm:ss offsets, and cover-art tiles - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "computed-columns", "data-infrastructure", "podcast-transcript-search"]
+dependencies = [
+    "pixeltable>=0.7.18",
+    "pillow",
+    "openai>=3",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
